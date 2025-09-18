@@ -24,19 +24,30 @@ A Java Othello (Reversi) implementation with human and AI players (Random & Gree
 ## 🗂️ Project Structure
 
 ├── pom.xml
-├── Othello.java # Main entry + orchestrator (select controller here)
-├── OthelloBoard.java # Board state, move validation, flips
-├── Move.java # Simple (row, col) move representation
-├── PlayerHuman.java # Human player via console
-├── PlayerRandom.java # Random AI agent
-├── PlayerGreedy.java # Greedy AI agent
-├── OthelloControllerHumanVSHuman.java # Human vs Human
-├── OthelloControllerHumanVSRandom.java # Human vs Random AI
-├── OthelloControllerHumanVSGreedy.java # Human vs Greedy AI
-├── OthelloControllerRandomVSRandom.java # Random AI vs Random AI (simulation)
-├── OthelloControllerRandomVSGreedy.java # Random AI vs Greedy AI
-└── randomVsRandomReport.txt # Notes + results from large simulations
 
+├── Othello.java # Main entry + orchestrator (select controller here)
+
+├── OthelloBoard.java # Board state, move validation, flips
+
+├── Move.java # Simple (row, col) move representation
+
+├── PlayerHuman.java # Human player via console
+
+├── PlayerRandom.java # Random AI agent
+
+├── PlayerGreedy.java # Greedy AI agent
+
+├── OthelloControllerHumanVSHuman.java # Human vs Human
+
+├── OthelloControllerHumanVSRandom.java # Human vs Random AI
+
+├── OthelloControllerHumanVSGreedy.java # Human vs Greedy AI
+
+├── OthelloControllerRandomVSRandom.java # Random AI vs Random AI (simulation)
+
+├── OthelloControllerRandomVSGreedy.java # Random AI vs Greedy AI
+
+└── randomVsRandomReport.txt # Notes + results from large simulations
 
 ---
 
